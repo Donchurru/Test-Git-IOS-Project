@@ -21,6 +21,7 @@
 		04B9680619CA457F003B3FED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B967E819CA457F003B3FED /* UIKit.framework */; };
 		04B9680E19CA457F003B3FED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04B9680C19CA457F003B3FED /* InfoPlist.strings */; };
 		04B9681019CA457F003B3FED /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B9680F19CA457F003B3FED /* Git_TestTests.m */; };
+		04B9681B19CA4A7F003B3FED /* DCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B9681A19CA4A7F003B3FED /* DCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		04B9680B19CA457F003B3FED /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		04B9680D19CA457F003B3FED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04B9680F19CA457F003B3FED /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		04B9681919CA4A7F003B3FED /* DCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTest.h; sourceTree = "<group>"; };
+		04B9681A19CA4A7F003B3FED /* DCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				04B967F619CA457F003B3FED /* Main.storyboard */,
 				04B967F919CA457F003B3FED /* DCViewController.h */,
 				04B967FA19CA457F003B3FED /* DCViewController.m */,
+				04B9681919CA4A7F003B3FED /* DCTest.h */,
+				04B9681A19CA4A7F003B3FED /* DCTest.m */,
 				04B967FC19CA457F003B3FED /* Images.xcassets */,
 				04B967EB19CA457F003B3FED /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				04B967F119CA457F003B3FED /* main.m in Sources */,
 				04B967FB19CA457F003B3FED /* DCViewController.m in Sources */,
+				04B9681B19CA4A7F003B3FED /* DCTest.m in Sources */,
 				04B967F519CA457F003B3FED /* DCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
